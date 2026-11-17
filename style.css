@@ -119,3 +119,9 @@
  .course-body h3{font-family:'Playfair Display',Georgia,serif!important;background:none!important;font-weight:600!important;font-size:clamp(17px,4.4vw,23px)!important;line-height:1.2!important;min-height:0!important;padding:0!important}
  .offer-label{display:block!important;font-size:9px!important;letter-spacing:.11em!important}
 }
+
+/* Ajuste solicitado: fotos inteiras, sem cortes, proporção quadrada igual em todas as telas. */
+.course-visual{aspect-ratio:1/1!important;height:auto!important;background:#ffffff!important;overflow:hidden!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
+.course-visual img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#ffffff!important}
+@media(max-width:640px){.course-visual{aspect-ratio:1/1!important}}
