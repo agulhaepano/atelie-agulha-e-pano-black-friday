@@ -125,3 +125,8 @@
 .course-visual:before,.course-visual:after{display:none!important;content:none!important}
 .course-visual img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#ffffff!important}
 @media(max-width:640px){.course-visual{aspect-ratio:1/1!important}}
+
+/* Padronização final: sem faixas brancas, mesmo fundo dos arquivos e fotos inteiras. */
+.course-visual{background:#f8e9e2!important;aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important}
+.course-visual img{background:#f8e9e2!important;width:100%!important;height:100%!important;object-fit:contain!important;display:block!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
