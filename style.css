@@ -92,3 +92,21 @@
 .course-visual{aspect-ratio:5/4!important;background:#f7e9e2!important}
 .course-visual img{object-fit:cover!important;width:100%!important;height:100%!important}
 @media(max-width:640px){.course-visual{aspect-ratio:5/4!important}}
+
+/* Vitrine final: mesma tipografia e conteúdo no desktop e no celular */
+.course-visual,.course-visual:before,.course-visual:after{background:#f7e9e1!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
+.course-visual{aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important;display:block!important}
+.course-visual img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;display:block!important}
+.course-body h3{font-family:'Playfair Display',Georgia,serif!important;font-weight:600!important;background:transparent!important;width:auto!important;min-height:0!important;line-height:1.18!important;padding:0!important;margin:0 0 14px!important}
+.offer-label{display:block!important;text-transform:uppercase!important;letter-spacing:.13em!important;font-weight:700!important;color:#9b647e!important;margin-top:auto!important}
+.course-price{font-size:25px!important}
+@media(max-width:640px){
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+ .course-visual{aspect-ratio:1/1!important}
+ .course-body{padding:13px 7px 10px!important}
+ .course-body h3{font-size:clamp(17px,4.5vw,23px)!important;margin-bottom:11px!important}
+ .offer-label{font-size:9px!important;line-height:1.25!important}
+ .course-price{font-size:clamp(19px,5vw,23px)!important;margin:7px 0 12px!important}
+ .course-link{font-size:clamp(10px,3.1vw,13px)!important}
+}
