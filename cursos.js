@@ -1,8 +1,8 @@
 // Lista de cursos e preços da Black Friday.
 // Fotos e links de checkout serão adicionados depois.
 window.CURSOS = [
-  {id:'trio-ternura', nome:'Trio Ternura', preco:157, foto:'assets/trio-ternura.jpg?v=20261117-fotos-revisadas', descricao:'Conheça o curso Trio Ternura do Ateliê Agulha e Pano.', checkout:''},
-  {id:'mimos-em-trio', nome:'Mimos em Trio', preco:157, foto:'assets/mimos-em-trio.jpg?v=20261117-fotos-revisadas', descricao:'Conheça o curso Mimos em Trio do Ateliê Agulha e Pano.', checkout:''},
+  {id:'trio-ternura', nome:'Trio Ternura', preco:157, foto:'assets/trio-ternura.jpg?v=20261117-fotos-finais', descricao:'Conheça o curso Trio Ternura do Ateliê Agulha e Pano.', checkout:''},
+  {id:'mimos-em-trio', nome:'Mimos em Trio', preco:157, foto:'assets/mimos-em-trio.jpg?v=20261117-fotos-finais', descricao:'Conheça o curso Mimos em Trio do Ateliê Agulha e Pano.', checkout:''},
   {id:'turminha-da-juju', nome:'Turminha da Juju', preco:397, foto:'assets/turminha-da-juju.jpg?v=20261117-fotos-revisadas', descricao:'Conheça o curso Turminha da Juju do Ateliê Agulha e Pano.', checkout:''},
   {id:'figurinha-sarah-kay', nome:'Figurinha Sarah Kay', preco:157, foto:'assets/figurinhas-sarah-kay.jpg?v=20261117-fotos-revisadas', descricao:'Conheça o curso Figurinha Sarah Kay do Ateliê Agulha e Pano.', checkout:''},
   {id:'bebe-cebolinha', nome:'Bebê Cebolinha', preco:73, foto:'assets/bebe-cebolinha.jpg?v=20261117-fotos-revisadas', descricao:'Conheça o curso Bebê Cebolinha do Ateliê Agulha e Pano.', checkout:''},
