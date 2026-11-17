@@ -130,3 +130,8 @@
 .course-visual{background:#f8e9e2!important;aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important}
 .course-visual img{background:#f8e9e2!important;width:100%!important;height:100%!important;object-fit:contain!important;display:block!important}
 .course-visual:before,.course-visual:after{display:none!important;content:none!important}
+
+/* Imagens uniformes: sem faixas, sem cortes e com fundo neutro. */
+.course-visual{height:auto!important;aspect-ratio:1/1!important;background:#f8e9e2!important;display:block!important;overflow:hidden!important}
+.course-visual:before,.course-visual:after{display:none!important}
+.course-visual img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:#f8e9e2!important}
