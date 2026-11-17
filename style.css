@@ -4,3 +4,58 @@
 @media(max-width:640px){.wrap{width:min(100% - 32px,500px)}.header-row{min-height:76px}.brand-symbol{font-size:48px}.brand-text{font-size:18px}.nav-toggle{display:flex;background:none;border:0;flex-direction:column;gap:5px;padding:12px;cursor:pointer}.nav-toggle span{width:25px;height:2px;background:#f28bb4;border-radius:8px}.nav{display:none;position:absolute;left:0;right:0;top:100%;padding:20px 24px;background:#19121a;box-shadow:0 18px 25px #0008;flex-direction:column;align-items:stretch;gap:17px}.nav.open{display:flex}.nav>a:not(.nav-cta){font-size:16px}.hero-grid{grid-template-columns:1fr;min-height:0}.hero-copy{text-align:center;padding:39px 0 0}.eyebrow{font-size:10px}.hero h1{font-size:clamp(75px,22vw,116px);margin:15px auto 8px;max-width:420px}.hero h1 em{margin-left:45px}.hero-brand{font-size:22px}.hero-copy>p{font-size:17px;max-width:350px;margin:15px auto}.hero-actions{margin-top:19px}.hero-detail{display:none}.hero-art{min-height:0;height:380px;margin-top:8px}.hero-art>img{height:368px;max-width:98%;border-radius:150px 150px 0 0}.hero-circle{inset:12px 12px 10px}.hero-note{bottom:18px;right:2px;font-size:12px}.stitch-one{left:4%;top:16%}.benefits-grid{grid-template-columns:repeat(2,1fr);gap:17px 12px;padding:20px 0}.benefits-grid>div{font-size:12px;gap:8px}.benefit-icon{font-size:26px;width:30px}.offers{padding:58px 0}.section-heading h2{font-size:42px}.section-heading p{font-size:13px;line-height:1.5}.course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.course-card{border-width:4px;border-radius:15px}.course-visual{height:142px}.placeholder .flower{font-size:37px}.placeholder span:last-child{font-size:10px}.course-body{padding:15px 9px 10px}.course-body h3{font-size:19px;margin-bottom:13px;min-height:48px;display:grid;place-items:center}.offer-label{font-size:9px}.course-price{font-size:24px;margin:5px 0 12px}.course-link{font-size:12px;padding:13px 5px}.bottom-cta{padding:31px 0}.bottom-inner{grid-template-columns:43px 1fr;gap:13px}.gift{font-size:48px}.bottom-inner h2{font-size:24px}.bottom-inner p{font-size:12px}.bottom-inner .button{grid-column:1/-1;justify-self:stretch}.footer-inner{font-size:10px}.detail-shell{padding:30px 0 60px}.detail-card{grid-template-columns:1fr;gap:15px;padding:17px}.detail-visual{min-height:250px}.detail-info h1{font-size:39px}.detail-modules{padding:19px}}
 @media(max-width:360px){.course-grid{grid-template-columns:1fr}.course-visual{height:240px}.course-body h3{min-height:0;font-size:24px}.course-price{font-size:30px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+
+/* Layout mobile inspirado no modelo aprovado. Desktop e páginas internas preservados. */
+@media(max-width:640px){
+ .site-header{background:linear-gradient(110deg,#ffe5ed,#ffd2e1);border-bottom:0}
+ .header-row{min-height:80px}
+ .brand{color:#24151c}
+ .brand-symbol{color:#e85494}
+ .brand-text{font-size:19px}
+ .nav-toggle span{background:#201319;height:3px}
+ .hero{background:radial-gradient(circle at 72% 33%,#372329 0,#1b1317 55%,#120e11 100%)}
+ .hero-grid{position:relative;display:grid;grid-template-columns:1fr;min-height:420px}
+ .hero-copy{position:relative;text-align:left;padding:44px 0 30px;min-height:420px;z-index:3;pointer-events:none}
+ .eyebrow{display:none}
+ .hero h1{font-size:clamp(62px,17vw,98px);max-width:64%;margin:10px 0 8px;line-height:.88;letter-spacing:-.055em}
+ .hero h1 em{margin-left:16px}
+ .hero-brand{font-size:clamp(14px,4vw,20px);max-width:52%;margin-top:17px}
+ .hero-promo{display:inline-block!important;max-width:52%!important;background:linear-gradient(115deg,#ffb5d0,#fa5c9b 65%,#f7a6c8);color:#26111b!important;padding:15px 10px;transform:rotate(-3deg);text-align:center;font:italic 600 clamp(14px,4.1vw,20px)/1.15 'Playfair Display',Georgia,serif!important;clip-path:polygon(0 3%,100% 0,96% 50%,100% 100%,0 97%,4% 50%);margin-top:22px!important}
+ .hero-actions{display:none}
+ .hero-art{position:absolute;inset:0 0 0 37%;height:100%;min-height:0;margin:0;display:flex;align-items:end;justify-content:end;z-index:2;pointer-events:none}
+ .hero-art>img{height:90%;width:100%;max-width:none;object-fit:contain;object-position:right bottom;border-radius:0;mask-image:linear-gradient(to bottom,#000 82%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%)}
+ .hero-circle{inset:10% 0 7% 0;background:radial-gradient(circle,#6b334e 0,transparent 65%)}
+ .hero-note,.stitch-one,.stitch-two{display:none}
+ .benefits{background:#1c1519}
+ .benefits-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:21px 0 19px}
+ .benefits-grid>div{flex-direction:column;justify-content:start;gap:7px;text-align:center;font-size:10px;line-height:1.15}
+ .benefit-icon{font-size:29px;width:auto;line-height:1}
+ .offers{padding:35px 0 50px}
+ .section-heading{margin-bottom:26px}
+ .section-heading .kicker{display:none}
+ .section-heading h2{font-size:clamp(34px,9vw,48px);font-style:italic}
+ .section-heading p{display:none}
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .course-card{background:#ffe6e8;border:5px solid #ffe3e9;border-radius:17px}
+ .course-visual{height:auto;aspect-ratio:5/4}
+ .course-visual img{object-fit:cover}
+ .course-body{padding:12px 7px 9px}
+ .course-body h3{background:#fff7f4;width:calc(100% + 14px);font-family:'DM Sans',Arial,sans-serif;font-size:clamp(13px,3.7vw,17px);font-weight:700;line-height:1.2;min-height:42px;margin:0 0 10px;padding:5px}
+ .offer-label{display:none}
+ .course-price{font-size:clamp(21px,5.8vw,29px);margin:2px 0 11px;color:#c9165b}
+ .course-link{font-size:clamp(11px,3.3vw,14px);background:linear-gradient(100deg,#f02d7a,#c70052);border-radius:12px;padding:12px 4px}
+ .bottom-cta{border-top:3px solid #ffaac7;background:linear-gradient(100deg,#ffe0e8,#ffc5da);padding:24px 0}
+ .bottom-inner{grid-template-columns:43px 1fr;gap:10px}
+ .bottom-inner .kicker,.bottom-inner p{display:none}
+ .bottom-inner h2{font:italic 500 21px/1.25 'Playfair Display',Georgia,serif;margin:0}
+ .bottom-inner .button{grid-column:1/-1;justify-self:stretch;font-size:16px}
+}
+@media(max-width:360px){
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .course-visual{height:auto}
+ .course-body h3{font-size:13px;min-height:43px}
+ .course-price{font-size:20px}
+ .hero-grid,.hero-copy{min-height:385px}
+ .hero h1{font-size:61px}
+}
