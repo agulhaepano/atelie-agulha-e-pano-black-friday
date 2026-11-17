@@ -74,3 +74,21 @@
  .course-body h3{margin-bottom:4px}
  .hero-art>img{height:98%;object-fit:contain;object-position:right bottom}
 }
+
+
+/* Padronização da vitrine: retratos grandes e preenchimento integral */
+.course-visual,.course-visual:before,.course-visual:after{background:#f7e9e2!important}
+.course-visual:before,.course-visual:after{content:none!important;display:none!important}
+.course-visual{height:auto!important;aspect-ratio:4/5!important;display:block!important;overflow:hidden!important}
+.course-visual img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important;display:block!important}
+.course-card{background:#fbe5e9!important}
+@media(max-width:640px){
+ .course-visual{aspect-ratio:4/5!important}
+ .course-visual img{object-fit:cover!important}
+ .course-body{padding-top:8px!important}
+}
+
+/* Fotos em sangria completa, sem moldura interna nem flores sobrepostas */
+.course-visual{aspect-ratio:5/4!important;background:#f7e9e2!important}
+.course-visual img{object-fit:cover!important;width:100%!important;height:100%!important}
+@media(max-width:640px){.course-visual{aspect-ratio:5/4!important}}
