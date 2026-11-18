@@ -9,7 +9,7 @@ if(grid && Array.isArray(window.CURSOS)){
     const title=document.createElement('h3');title.textContent=curso.nome;
     const label=document.createElement('div');label.className='offer-label';label.textContent='Oferta Black Friday';
     const price=document.createElement('div');price.className='course-price';price.textContent=window.moeda(curso.preco);
-    const link=document.createElement('a');link.className='course-link';link.href=curso.id==='bebe-cebolinha'?'bebe-cebolinha.html':curso.id==='trio-ternura'?'trio-ternura.html':curso.id==='mimos-em-trio'?'mimos-em-trio.html':curso.id==='clarinha'?'clarinha.html':`curso.html?curso=${encodeURIComponent(curso.id)}`;link.textContent='Quero esse curso →';link.setAttribute('aria-label',`Conhecer o curso ${curso.nome}`);
+    const link=document.createElement('a');link.className='course-link';link.href=curso.id==='bebe-cebolinha'?'bebe-cebolinha.html':curso.id==='trio-ternura'?'trio-ternura.html':curso.id==='mimos-em-trio'?'mimos-em-trio.html':curso.id==='clarinha'?'clarinha.html':curso.id==='turminha-da-juju'?'turminha-da-juju.html':`curso.html?curso=${encodeURIComponent(curso.id)}`;link.textContent='Quero esse curso →';link.setAttribute('aria-label',`Conhecer o curso ${curso.nome}`);
     body.append(title,label,price,link);card.append(visual,body);grid.append(card);
   }
 }
